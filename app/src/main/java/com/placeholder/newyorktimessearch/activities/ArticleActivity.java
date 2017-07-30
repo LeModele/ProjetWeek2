@@ -10,6 +10,7 @@ import android.support.v4.view.MenuItemCompat;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.ShareActionProvider;
 import android.support.v7.widget.Toolbar;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -47,8 +48,9 @@ public class ArticleActivity extends AppCompatActivity {
            public void onPageStarted(WebView view, String url, Bitmap favicon) {
                super.onPageStarted(view, url, favicon);
                loadweb = new ProgressDialog(ArticleActivity.this);
-               loadweb.setMessage("Chargement ...");
+              // loadweb.setMessage("Chargement ...");
                loadweb.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+               loadweb.getWindow().setGravity(Gravity.CENTER);
                loadweb.show();
            }
            @Override

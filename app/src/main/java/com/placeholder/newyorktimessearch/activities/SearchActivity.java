@@ -18,6 +18,7 @@ import android.support.v7.widget.SearchView.OnQueryTextListener;
 import android.support.v7.widget.StaggeredGridLayoutManager;
 import android.support.v7.widget.Toolbar;
 import android.util.Log;
+import android.view.Gravity;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
@@ -157,16 +158,17 @@ private CoordinatorLayout coordinatorLayout;
     public void loadDialog(){
 
         progressDialog = new ProgressDialog(SearchActivity.this);
-        progressDialog.setMessage("Loading..."); // Setting Message
+        //progressDialog.setMessage("Loading..."); // Setting Message
         //progressDialog.setTitle("ProgressDialog"); // Setting Title
         progressDialog.setProgressStyle(ProgressDialog.STYLE_SPINNER); // Progress Dialog Style Spinner
         progressDialog.show(); // Display Progress Dialog
         progressDialog.getWindow().setBackgroundDrawable(new ColorDrawable(Color.TRANSPARENT));
+        progressDialog.getWindow().setGravity(Gravity.CENTER);
         progressDialog.setCancelable(false);
         new Thread(new Runnable() {
             public void run() {
                 try {
-                    Thread.sleep(7000);
+                    Thread.sleep(5000);
                 } catch (Exception e) {
                     e.printStackTrace();
                 }
