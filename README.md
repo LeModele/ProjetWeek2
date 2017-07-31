@@ -47,8 +47,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='assets/NYT.gif' title='Video Walkthrough' width='350' alt='Video Walkthrough'/>
-<img src='http://imgur.com/u0PdA6j.png'  title='Video Walkthrough' width='250' alt='Video Walkthrough'/><img src='http://imgur.com/2eA9wUl.png' title='pic' width='250' alt='pic' src='http://imgur.com/sxtVNZM.png' title='pic' width='250' alt='pic'/><img src='http://imgur.com/sxtVNZM.png' title='pic' width='250' alt='pic'/>
+<img src='assets/NYT.gif' title='Video Walkthrough' width='350' alt='Video Walkthrough'/><img src='http://imgur.com/u0PdA6j.png'  title='Video Walkthrough' width='250' alt='Video Walkthrough'/><img src='http://imgur.com/2eA9wUl.png' title='pic' width='250' alt='pic' /><img src='http://imgur.com/sxtVNZM.png' title='pic' width='250' alt='pic'/>
 
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
