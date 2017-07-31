@@ -47,7 +47,7 @@ The following **bonus** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='assets/NYT.gif' title='Video Walkthrough' width='400' alt='Video Walkthrough'/>
+<img src='assets/NYT.gif' title='Video Walkthrough' width='400' alt='Video Walkthrough'/><img src='http://imgur.com/u0PdA6j.png' title='Video Walkthrough' width='400' alt='Video Walkthrough'/>
 ![Video Walkthrough](assets/NYT.gif)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
